@@ -5,4 +5,4 @@ ADD package.json package.json
 ADD bun.lockb bun.lockb
 RUN bun install
 
-CMD bun src/index.js
+CMD bun index.ts
